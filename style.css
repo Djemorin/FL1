@@ -4,6 +4,7 @@ body{
 	margin: 0px;
 	padding: 0px;
 	background: url(imgs/th.jpg);
+	/*background-color: beige;*/
 }
 
 h1{
@@ -14,18 +15,15 @@ h1{
 }
 
 header{
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-top: 3px;
 	background-color: black;
 	color: lightgrey;
-	border-radius: 5px;
 	text-shadow: 2px 2px 5px #ed2939;
 	height: 100px;
 	padding-top: 0.5%;
-	width: 80%;
+	width: 75%;
 	margin-left: auto;
 	margin-right: auto;
-	box-shadow: 1px 1px 5px black;
 }
 
 .flag, .maintitle{
@@ -51,9 +49,7 @@ footer{
 	text-align: center;
 	background-color: rgba(0,35,149,0.7);
 	border-top: 2px solid #000928;
-	box-shadow: 1px 1px 5px black;
 	color: lightgrey;
-	border-radius: 5px;
 	font-size: 15px;
 }
 
@@ -85,26 +81,24 @@ nav a{
 .anim{
 	width: 100%;
 	height: 150px;
-	box-shadow: 1px 1px 5px black;
-	border-radius: 5px;
 
 	-webkit-animation-name: slide-banner;
-	-webkit-animation-duration:  90s;
+	-webkit-animation-duration:  150s;
 	-webkit-animation-timing-function: ease;
 	-webkit-animation-iteration-count: infinite;
 
 	-moz-animation-name: slide-banner;
-	-moz-animation-duration:  90s;
+	-moz-animation-duration:  150s;
 	-moz-animation-timing-function: ease;
 	-moz-animation-iteration-count: infinite;
 
 	-o-animation-name: slide-banner;
-	-o-animation-duration:  90s;
+	-o-animation-duration:  150s;
 	-o-animation-timing-function: ease;
 	-o-animation-iteration-count: infinite;
 
 	animation-name: slide-banner;
-	animation-duration:  90s;
+	animation-duration:  150s;
 	animation-timing-function: ease;
 	animation-iteration-count: infinite;
 }
@@ -113,8 +107,6 @@ nav a{
 	display: block;
  	max-width: 100%;
   	height: auto;
-	box-shadow: 1px 1px 5px black;
-	border-radius: 5px;
 }
 
 @-webkit-keyframes slide-banner{
@@ -175,27 +167,27 @@ nav a{
 
 .table{
 	display: table;
-	margin: 1px auto;
+	margin: 0px auto;
 }
 
 a{
 	color: white;
 	text-decoration: none;
-	font-size: 20px;
+	font-size: 18px;
 }
 
 article{
-	width: 80%;
+	width: 75%;
 	margin: 1% auto;
-	background-color: rgba(0,0,0,0.8);
+	background-color: black;
 	display: table;
 	margin: 1% auto;
 	padding: 1%;
-	box-shadow: 1px 1px 5px black;
-	border-radius: 5px;
 }
 
 .team{
+	margin: 0px;
+	padding: 0px;
 	display: inline-block;
 	width: 25%;
 	height: 50px;
@@ -246,6 +238,11 @@ nav li:hover a{
 
 .team a:hover{
 	color: yellow;
+}
+
+.equipes{
+	justify-content: space-between;
+
 }
 
 .liens, .legal, .mails{
